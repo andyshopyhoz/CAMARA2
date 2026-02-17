@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cámara Bombillo 360° - Seguridad Inteligente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+        .bg-gradient-hero { background: linear-gradient(180deg, #1a202c 0%, #2d3748 100%); }
+        .btn-bounce { animation: bounce 2s infinite; }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(-10px);}
+            60% {transform: translateY(-5px);}
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="bg-red-600 text-white text-center py-2 text-sm font-bold uppercase tracking-wider">
+        ⚡ OFERTA FLASH: 50% DE DESCUENTO SOLO POR HOY ⚡
+    </div>
+
+    <header class="bg-gradient-hero text-white px-6 py-12 text-center">
+        <span class="bg-blue-500 text-xs font-bold px-3 py-1 rounded-full uppercase">Lo más vendido de 2024</span>
+        <h1 class="text-3xl md:text-5xl font-extrabold mt-4 leading-tight">
+            Vigila Tu Hogar en <span class="text-blue-400 text-360">360°</span> desde tu Celular 📱
+        </h1>
+        <p class="mt-4 text-lg text-gray-300">Sin cables, sin técnicos y sin cuotas mensuales. Instalación en 60 segundos.</p>
+        
+        <div class="mt-8 flex justify-center">
+            <img src="https://app.dropi.co/dashboard/products/1634890/image.jpg" alt="Cámara Bombillo" class="w-64 h-64 object-contain rounded-2xl shadow-2xl bg-white p-2">
+        </div>
+
+        <div class="mt-8">
+            <a href="#ordenar" class="btn-bounce inline-block bg-orange-500 hover:bg-orange-600 text-white font-extrabold py-4 px-8 rounded-xl text-xl shadow-lg transition-all">
+                ¡PEDIR AHORA Y PAGAR EN CASA! 🚚
+            </a>
+            <p class="mt-2 text-sm text-gray-400">Pagas al recibir · Envío gratis</p>
+        </div>
+    </header>
+
+    <section class="py-12 px-6">
+        <h2 class="text-2xl font-bold text-center mb-8">¿Por qué es la favorita de todos?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div class="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+                <span class="text-3xl">🔄</span>
+                <div>
+                    <h3 class="font-bold">Giro 360° Controlado</h3>
+                    <p class="text-gray-600 text-sm">Mueve la cámara desde la App para ver cada rincón de la habitación.</p>
+                </div>
+            </div>
+            <div class="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+                <span class="text-3xl">🌙</span>
+                <div>
+                    <h3 class="font-bold">Visión Nocturna a Color</h3>
+                    <p class="text-gray-600 text-sm">6 potentes LEDs para ver nítido incluso en oscuridad total.</p>
+                </div>
+            </div>
+            <div class="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+                <span class="text-3xl">🎤</span>
+                <div>
+                    <h3 class="font-bold">Audio en Dos Vías</h3>
+                    <p class="text-gray-600 text-sm">Escucha y habla a través de la cámara desde cualquier parte del mundo.</p>
+                </div>
+            </div>
+            <div class="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm border border-gray-100">
+                <span class="text-3xl">🚨</span>
+                <div>
+                    <h3 class="font-bold">Alertas al Celular</h3>
+                    <p class="text-gray-600 text-sm">Recibe notificaciones inmediatas si detecta movimiento sospechoso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ordenar" class="bg-gray-100 py-12 px-6">
+        <h2 class="text-3xl font-bold text-center mb-10 text-gray-900 italic underline">¡SELECCIONA TU PACK!</h2>
+        
+        <div class="max-w-md mx-auto space-y-4">
+            <div class="bg-white border-2 border-gray-200 p-6 rounded-2xl relative">
+                <h3 class="text-xl font-bold italic">PROMO: 1 Unidad</h3>
+                <p class="text-gray-500 line-through">$199.900</p>
+                <p class="text-3xl font-black text-blue-600">$109.900 <span class="text-sm font-normal text-gray-600">COP</span></p>
+                <button class="w-full mt-4 bg-gray-800 text-white py-3 rounded-lg font-bold">Llevar 1 Unidad</button>
+            </div>
+
+            <div class="bg-blue-50 border-4 border-blue-500 p-6 rounded-2xl relative transform scale-105 shadow-xl">
+                <div class="absolute -top-4 right-4 bg-orange-500 text-white text-xs px-3 py-1 rounded-full font-bold">MÁS VENDIDO</div>
+                <h3 class="text-xl font-bold italic">KIT SEGUIDAD: 2 Unidades</h3>
+                <p class="text-gray-500 line-through">$399.800</p>
+                <p class="text-3xl font-black text-blue-600">$189.900 <span class="text-sm font-normal text-gray-600">COP</span></p>
+                <button class="w-full mt-4 bg-orange-500 text-white py-3 rounded-lg font-bold shadow-lg">¡COMPRAR CON DESCUENTO!</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-500 border-t">
+        <p class="text-sm px-6">🛡️ <strong>Garantía de Satisfacción:</strong> Si el producto llega dañado, te lo cambiamos de inmediato.</p>
+        <div class="mt-4 flex justify-center space-x-4 opacity-50">
+            <span>✅ Calidad Premium</span>
+            <span>✅ Pago Seguro</span>
+            <span>✅ Envío Rápido</span>
+        </div>
+    </footer>
+
+</body>
+</html>
